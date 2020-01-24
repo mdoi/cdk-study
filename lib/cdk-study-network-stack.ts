@@ -10,7 +10,7 @@ export class CdkStudyNetworkStack extends cdk.Stack {
       subnetConfiguration: [
         {
           cidrMask: 24,
-          name: 'CdkStudySubnetPublic',
+          name: 'CdkStudySubnetPublic1',
           subnetType: ec2.SubnetType.PUBLIC
         }
       ]
